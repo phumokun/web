@@ -38,7 +38,7 @@
 </div>    
 
 <!-- Photo Grid -->    
-<div class="w3-row-padding w3-grayscale w3-display-container w3-hover" style="margin-bottom:5px" style="width:100%">       
+<div class="w3-row-padding w3-grayscale w3-display-container w3-hover w3-third" style="margin-bottom:5px" style="width:100%">       
   	
 		<div class="w3-display-container w3-hover-opacity" style="width:100%">
     			<img src="5.jpg" alt="Avatar" style="width:100%">
@@ -46,12 +46,12 @@
       					<button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black">John Doe</button>
     				</div>
   		</div>
-  	<div id="id01" class="w3-modal">
-		<div class="w3-modal-content w3-card-4 w3-animate-zoom">
-  			<header class="w3-container w3-blue"> 
-				<span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-blue w3-xlarge w3-display-topright">&times;</span>
-					<h2>Header</h2>
-			</header>
+  			<div id="id01" class="w3-modal">
+				<div class="w3-modal-content w3-card-4 w3-animate-zoom">
+  					<header class="w3-container w3-blue"> 
+						<span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-blue w3-xlarge w3-display-topright">&times;</span>
+							<h2>Header</h2>
+					</header>
 						<div class="w3-bar w3-border-bottom">
    							<button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'London')">London</button>
 							<button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'Paris')">Paris</button>
@@ -74,8 +74,8 @@
 						<div class="w3-container w3-light-grey w3-padding">
 							<button class="w3-button w3-right w3-white w3-border" onclick="document.getElementById('id01').style.display='none'">Close</button>
 						</div>
-		</div>
-	</div>    
+			</div>
+   
 </div>
 
 	<div class="w3-container w3-third">
