@@ -12,6 +12,27 @@ body,h1 {font-family: "Raleway", Arial, sans-serif}
 h1 {letter-spacing: 8px}
 h4 {letter-spacing: 8px}
 .w3-row-padding img {margin-bottom: 12px}
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
+}
 </style>
 <body>
 
@@ -74,6 +95,15 @@ h4 {letter-spacing: 8px}
 </div>
   
 <!-- End Page Content -->
+</div>
+<div class="w3-padding w3-center">
+	<div class="pagination">
+ 		 <a href="https://phumokun.github.io/web/diary.html">&laquo;</a>
+ 		 <a href="https://phumokun.github.io/web/diary.html">1</a>
+ 		 <a href="https://phumokun.github.io/web/diary1.html" class="active">2</a>
+ 		 <a href="https://phumokun.github.io/web/diary2.html">3</a>
+ 		 <a href="https://phumokun.github.io/web/diary2.html">&raquo;</a>
+	</div>
 </div>
 
 <!-- Footer -->
